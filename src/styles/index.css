@@ -37,7 +37,7 @@ li.clicked {
 	text-decoration: line-through;
 }
 
-div .todo-list {
+div .todo-wrapper {
     border-radius: 20px;
 }
 
