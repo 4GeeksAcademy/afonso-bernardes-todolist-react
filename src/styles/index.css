@@ -24,12 +24,12 @@ li {
 	padding-left: 10px;
 	line-height: 2em;
 	margin: 0;
-	color: #666;
+	color: #313030;
 }
 
 li:nth-child(2n) {
 	background: rgb(147, 147, 147);
-    color: lightgray;
+    color: whitesmoke;
 }
 
 li.clicked {

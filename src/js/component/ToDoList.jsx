@@ -27,6 +27,10 @@ const ToDoList = () => {
 					})}
 				</ul>
 
+				<div className="todo-footer">
+					{tasks.length} items left.
+				</div>
+
 			</div>
 		</div>
 	);
