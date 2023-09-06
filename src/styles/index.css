@@ -59,11 +59,12 @@ input#addToDo:focus {
 }
 
 i.fa-trash {
-	margin: 7px;
+	margin: 0px;
+	padding: 0px;
+	color: #bb2a2a;
 }
 
 span {
-	background: tomato;
 	height: 35px;
 	width: 0;
 	margin-right: 10px;
@@ -72,10 +73,11 @@ span {
 	display: inline-block;
 	color: white;
 	opacity: 0;
-	transition: 0.2s linear;
+	transition: 0.2s ease-in;
 }
 
 li:hover span {
 	opacity: 1;
 	width: 40px;
+	transition: 0.2s ease-in;
 }

@@ -4,8 +4,8 @@ import React, { useState } from "react";
 const ListItem = (props) => {
 
 	return (
-		<li>
-			<span><i className="fa fa-trash" onClick={props.deleteItem} data-remove-id={props.itemIndex}></i></span> {props.text}
+		<li className="container d-flex justify-content-between">
+			{props.text} <span><i className="fa fa-trash" onClick={props.deleteItem} data-remove-id={props.itemIndex}></i></span> 
 		</li>
 	)};
 
