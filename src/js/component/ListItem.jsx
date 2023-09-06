@@ -1,14 +1,11 @@
 import React, { useState } from "react";
 
-const deleteItem = (event) => {
-	event.target.parentNode.parentNode.remove();
-};
-
-//create your first component
+//Create and return a list item.
 const ListItem = (props) => {
+
 	return (
 		<li>
-			<span><i className="fa fa-trash" onClick={deleteItem}></i></span> {props.text}
+			<span><i className="fa fa-trash" onClick={props.deleteItem} data-remove-id={props.itemIndex}></i></span> {props.text}
 		</li>
 	)};
 
